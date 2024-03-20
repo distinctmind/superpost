@@ -1,36 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+I often browse Pinterest as a way to get inspired to create instagram posts. So I find the perfect picture, but then, in order to create an instagram post from that picture, I have to download the picture, go to instagram, upload the picture, and then I can share my post. I find, that the process of downloading the image and going through the web instagram portal is not effecient. It's frustrating. So I set out to create an app to solve my pains. 
 
-## Getting Started
+And this app is the solution to that.
 
-First, run the development server:
+For now, it works only for my specific business instagram account, but it allows me to simply input an image url, a caption, and when I click post, it automatically creates the instagram post on my behalf. I don't have to download the picture, I don't have to go through the instagram site.
+Just, URL, CAPTION, AND POST!
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Simple.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#TODO.
+Make it so that upon refresh, my token stays alive, so I don't have to reconnect each time.. 
+Allow multiple carousel post?
+How can I make it so everyone can use this app, given they have a business instagram account?
